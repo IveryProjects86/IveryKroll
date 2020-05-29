@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Header content is invisible to user-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <!--Body content is visable to user-->
+    <h1>Sample Page</h1>
+    <a href="#footer">Jump to Bottom</a> <!--this supports line 26, to create internal link-->
+    <br>
+    <img src="https://pixabay.com/photos/tic-tac-toe-love-heart-play-1777859/" alt="Tic-Tac-Toe Love">
+    <br>
+    <p> View more <a href="https://html.com/" target="_blank">HTML Photos</a></p> <!--how to wrap link into text element-->
+    <p> View more <a href="#" target="_blank">HTML Photos</a></p> <!--"#" is used to create Dead Link-->
+    <br>
+    <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a><!--turn img into link by adding <a> element, # is dead link unit url is added-->
+    
+    <h1> Mildred Lewis </h1>
+    <h2> Frances Lewis </h2>
+    <h3> Frances Lewis-Ivery</h3>
+    <h4> Sarita Ivery</h4>
+    <h5> Sarita F. Ivery</h5>
+    <a href="https://html.com/">Learn HTML</a>
+    <br>
+    <a href="https://html.com/" target="blank">Learn Blank</a> <!--target="blank" is used to open link in new window, is blank and _blank the same??--> 
+    <br>
+    <a href="https://html.com/" target="self">Learn Self</a>
+<br>
+    <a href="https://html.com/" target="parent">Learn Parent</a>
+<br>
+    <a href="https://html.com/" target="top">Learn Top</a>
+    <br>
+    <a href="https://html.com/" target="blank">Learn Golang</a>
+    <br>
+    <a href="https://html.com/" target="blank">Learn HTML</a>
+    <br>
+    <p>Things I LOVE</p> <!--unordered list-->
+    <ul>
+    <li>Shiraz red wine</li>
+    <li>seafood pasta</li>
+    <li>traveling</li>
+    </ul>
+    <p>Things I HATE</p> <!-- ordered list-->
+    <ol>
+    <li>navy beans</li>
+    <li>bad customer service</li>
+    <li>fruit cakes</li>
+    </ol> 
+    <form action="/submit-cat-photo" >
+    <label for="Indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label> <!--checked is added to input line to check a box by defaulf-->
+     <label for="Outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label><br>
+     <label for="loving"><input id="loving" type="checkbox" name="personality" checked>Loving</label>
+    <label for="giving"><input id="giving" type="checkbox" name="personality">Giving</label>
+    <label for="outgoing"><input id="outgoing" type="checkbox" name="personality">Outgoing</label><br>
+    
+    <input type="text" required placeholder="Sarita was here"><button type="submit">Submit</button>
+    </form> <!--1st create input elements are a convenient way to get input from your user. 2nd add placeholder text added with placeholder text, 3rd add web form by wrapping form aroung input/placeholder. 4th add button as last element in your form,text needs words only for ex Submit with no "" or <> around it. Make it a required filed by adding required to input  type-->
+    <br>
+    <br>
+    <br>
+    <label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label> <!--Why is this way less favorable-->
+    
+  </body>
+</html>
+<br>
+<br>
+<footer id="footer"> Copyright Sarita Sample 2020</footer> <!--this id="footer" supports line 11-->
+
+add value="" to all labels
