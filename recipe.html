@@ -13,19 +13,23 @@
    <style>
 /* Changing font size of text */
     h1{ font-size : 45px;}
-    h2{font-size : 30px;}
+    h2{
+        font-size : 30px;
+        
+        }
     p{font-size: 20px;}
     ul,ol{font-size: 20px;}
 /* Other option: Google Fonts is a free library of web fonts that you can use in your CSS by referencing the font's URL. */
     *{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     .smaller-image{width: 500px;}
-    .beige-background{ background-color: rgb(238, 228, 217);}
+    /* You can also use height/width property as well. img{height: 35;} */
+    .beige-background{ background-color: rgb(218, 169, 121);}
     /* This is how you change the body */
     body{
         background-color: seashell;
     }
    </style>
-        <h1 style="color : darkred;">Italian Sausage & White Bean Soup</h1>
+        <h1 style="color : darkred;">Italian Sausage & White Bean <s>Soup</s></h1>
         <img class="cat-photo-form"src="Soup.jpg"alt="Italian Sausage and White Bean Soup"> 
         <!-- class for image was created in style tag but must be tag in the actual img tag -->
 
@@ -35,7 +39,7 @@
     <!-- ?To divide the color into blocks, what would I do? -->
     <!-- Class/background color must be tagged in the style and div -->
     <div class="beige-background">
-    <h2 style="color : darkred;">List Of Ingredients</h2>
+    <h2 style="color : darkred;"><u>List Of Ingredients</u></h2>
 <ul>
     <li>1 lb Italian Sausage</li>
     <li>1 Onion, diced</li>
@@ -51,8 +55,8 @@
     <li>Salt and Pepper, to taste</li>
     <li>Soup pot</li>
 </ul>
-<br>
-    <h2 style="color: darkred;">Directions to Follow</h2>
+<hr>
+    <h2 style="color: darkred;"><u>Directions to Follow</u></h2>
 <ol>
     <li>Heat up the pot over Medium/High heat</li>
     <li>Remove sausage from casing and cook until brown and no longer pink</li>
@@ -67,7 +71,7 @@
 </ol>
 <br>
 </div>
-    <p>I hope you love this flavorful soup as much as I do, and let's not forget the wine. This pairs well with a <i>Chardonnay</i> or an <i>Italian Chianti</i.>. For more recipe ideas head over to <a href="https://www.thekitchenwife.net/" target=_blank>The Kitchen Wife.</a> Enter your email address to get faboulus but quick Summer time meals delivered right to your inbox. </p>
+    <p>I hope you love this <strong>flavorful soup</strong> as much as I do, and let's not forget the <em>Wine</em>. This pairs well with a <i>Chardonnay</i> or an <i>Italian Chianti</i.>. For more recipe ideas head over to <a href="https://www.thekitchenwife.net/" target=_blank>The Kitchen Wife.</a> Enter your email address to get faboulus but quick Summer time meals delivered right to your inbox. </p>
     <input type="text"placeholder="Email Address">
     <p>Enjoy!</p>
     <p>Sarita F. Ivery</p>
