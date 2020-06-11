@@ -32,7 +32,55 @@
     a:hover{
         color: palevioletred;
     }
+
+    .main-nav 
+    {
+        float: right;
+        /* list-style none deletes bullets */
+        list-style: none;
+        margin-top: 30px;
+    }
+
+    .main-nav li
+    {
+        /* inline creates vertical main nav */
+        display: inline-block;
+    }
+        /* small oversights will cause changes not to show. I was missing the - in main-nav */
+    .main-nav li a
+    {
+        color: blue;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
    </style>
+   <header>
+        <div class="row">
+         <ul class="main-nav">
+                <li><a href=""></a> HOME </a></li>
+                <li><a href=""></a> SERVICES </a></li>
+                <li><a href=""></a> ABOUT </a></li>
+                <li><a href=""></a> CONTACT </a></li>
+                <li><a href=""></a> NEWS </a></li>
+                <li><a href=""></a> FAQ </a></li>
+                
+        
+        
+        </ul>       
+
+
+        </div>
+
+
+
+
+   </header>
+   <br>
+   <br>
+   <br>
+   
         <h1 style="color : darkred;">Italian Sausage & White Bean <s>Soup</s></h1>
         <img class="cat-photo-form"src="Soup.jpg"alt="Italian Sausage and White Bean Soup"> 
         <!-- class for image was created in style tag but must be tag in the actual img tag -->
