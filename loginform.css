@@ -1,0 +1,106 @@
+body
+{
+    marging: 0;
+    padding: 0;
+    background: url();
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox
+{
+    width: 370px;
+    height: 470px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute; 
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.logo 
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    right: calc(42% - 50px);
+    
+    
+
+}
+
+h1
+{
+    margin:0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input
+{
+   width: 100%;
+   margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    /* this took away the orginal box look and made the white background transparent */
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    /* this moved away from white line */
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(240, 104, 26);
+    color: #fff;
+    font-size: 18px;
+    /* this rounds the edges of the box */
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+cursor:pointer;
+background: #072cff;
+/* changed color of Login words when you hover */
+color: #000; 
+
+}
+
+.loginbox a
+{
+/* removes underline when set to none */
+text-decoration: none;
+font-size: 12px; 
+line-height: 20px;
+color: grey;
+}
+
+.loginbox a:hover
+{
+color:rgb(105, 188, 255);
+}
