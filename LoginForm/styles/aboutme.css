@@ -1,12 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
 
+}
+
+header{
+    background-image: url(../img/lis.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
 
 
 .main-nav {
-    margin: 20px; 
+    margin: 10px; 
+    /* This moves the nav to far right of page */
     float: right;
-    list-style: none;
-    
+    /* This removes the bullets */
+    list-style: none;  
+    /* This moves menu down 30px from the top*/
+    margin-top: 30px;
 }
+
+.main-nav li{
+    /* This creates a vertical nav menu */
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: ;
+    text-decoration: none;
+    padding: ;
+    font-family: ;
+    font-style: ;
+
+}
+
